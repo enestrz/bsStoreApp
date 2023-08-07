@@ -52,3 +52,14 @@
 2023-08-07 14:58:04.7495 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET\bsStoreApp\WebApi\nlog.config
 2023-08-07 15:00:31.4350 Info AppDomain Shutting down. LogFactory closing...
 2023-08-07 15:00:31.4869 Info LogFactory has been closed.
+2023-08-07 15:46:25.9222 Info Message Template Auto Format enabled
+2023-08-07 15:46:26.1620 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-07 15:46:26.2255 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET\bsStoreApp\WebApi\nlog.config
+2023-08-07 15:52:27.5267 Info Message Template Auto Format enabled
+2023-08-07 15:52:27.9709 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-07 15:52:28.1153 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET\bsStoreApp\WebApi\nlog.config
+2023-08-07 15:57:38.9801 Info Message Template Auto Format enabled
+2023-08-07 15:57:39.0744 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-07 15:57:39.1069 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\ASP.NET\bsStoreApp\WebApi\nlog.config
+2023-08-07 15:58:45.4589 Info AppDomain Shutting down. LogFactory closing...
+2023-08-07 15:58:45.4904 Info LogFactory has been closed.
