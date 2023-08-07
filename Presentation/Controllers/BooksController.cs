@@ -1,18 +1,12 @@
 ﻿using Entities.DataTransferObjects;
-using Entities.Exceptions;
-using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.ActionFilters;
 using Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Presentation.Controllers
 {
+    [ServiceFilter(typeof(LogFilterAttribute))]
     [ApiController]
     [Route("api/books")]
     public class BooksController : ControllerBase
