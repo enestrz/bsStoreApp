@@ -29,6 +29,19 @@ namespace WebApi.Extensions
             services.AddScoped<ValidationFilterAttribute>(); // IoC
             services.AddSingleton<LogFilterAttribute>();
         }
+
+        public static void ConfigureCors(this IServiceCollection services)
+        {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder =>
+                    builder.AllowAnyHeader()
+                    .AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .WithExposedHeaders("X-Pagination")
+                );
+            });
+        }
     }
 
 
